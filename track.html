@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Track Order - Flipkart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Top Navbar -->
+    <nav class="navbar">
+        <div class="nav-left">
+            <img src="images/flipkart-logo.png" alt="Flipkart" class="logo">
+        </div>
+        <div class="nav-right">
+            <h1>Track Order</h1>
+        </div>
+    </nav>
+
+    <div class="tracking-container">
+        <div class="order-id">Order ID: <span id="orderId">#FK123456789</span></div>
+        
+        <!-- Progress Timeline -->
+        <div class="timeline">
+            <div class="step active">
+                <div class="step-icon">1</div>
+                <div class="step-text">Ordered</div>
+                <div class="step-date">Dec 10, 2025</div>
+            </div>
+            <div class="step active">
+                <div class="step-icon">2</div>
+                <div class="step-text">Packed</div>
+                <div class="step-date">Dec 11, 2025</div>
+            </div>
+            <div class="step active">
+                <div class="step-icon">3</div>
+                <div class="step-text">Shipped</div>
+                <div class="step-date">Dec 12, 2025</div>
+            </div>
+            <div class="step">
+                <div class="step-icon">4</div>
+                <div class="step-text">Delivered</div>
+                <div class="step-date">Dec 14, 2025</div>
+            </div>
+        </div>
+
+        <div class="tracking-info">
+            <div class="info-row">
+                <span>Current Status:</span>
+                <span class="status in-transit">In Transit</span>
+            </div>
+            <div class="info-row">
+                <span>Expected Delivery:</span>
+                <span>Dec 14, 2025</span>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Animated progress effect
+        window.addEventListener('load', () => {
+            const steps = document.querySelectorAll('.step');
+            steps.forEach((step, index) => {
+                setTimeout(() => {
+                    step.classList.add('animate');
+                }, index * 500);
+            });
+        });
+    </script>
+</body>
+</html>

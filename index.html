@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Orders - Flipkart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Top Navbar -->
+    <nav class="navbar">
+        <div class="nav-left">
+            <img src="images/flipkart-logo.png" alt="Flipkart" class="logo">
+        </div>
+        <div class="nav-right">
+            <h1>My Orders</h1>
+        </div>
+    </nav>
+
+    <!-- Filter Tabs -->
+    <div class="filter-tabs">
+        <button class="tab active" data-status="all">All Orders</button>
+        <button class="tab" data-status="delivered">Delivered</button>
+        <button class="tab" data-status="in-transit">In Transit</button>
+        <button class="tab" data-status="cancelled">Cancelled</button>
+        <button class="tab" data-status="refunded">Refunded</button>
+    </div>
+
+    <!-- Orders Container -->
+    <div class="orders-container" id="ordersContainer">
+        <!-- Orders will be populated by JavaScript -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
