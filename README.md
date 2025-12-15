@@ -4,7 +4,7 @@
 This case study is a Flipkart‑style **“My Orders”** web application.  
 It focuses on the post‑purchase experience: viewing previous orders, checking status, tracking delivery, and viewing a simple receipt.
 
-***
+*** 
 
 ## Objective
 
