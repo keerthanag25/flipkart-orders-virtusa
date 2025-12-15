@@ -3,10 +3,9 @@
 This is a simple Flipkart‑style **“My Orders”** web application created for the Virtusa internship/mini‑project.<br>
 It lets users view their past orders in a layout similar to Flipkart’s orders page, along with basic tracking and a sample receipt.<br>
 <br>
-<br>
 _____
 <br>
-<br>
+
 ## Features:<br> <br>
 
 -Flipkart‑like top navbar with a clear **"My Orders"** title<br>
@@ -28,9 +27,7 @@ _____
   -`track.html` – Order tracking timeline UI<br>
   -`receipt.html` – Simple payment receipt page<br>
   <br>
-  <br>
   ____
-  <br>
   <br>
   
 ## Tech Stack:<br>
@@ -40,9 +37,7 @@ _____
   -**localStorage** for storing and updating order data on the browser<br>
   -Product images loaded via online image URLs (no local image folder required)<br>
   <br>
-  <br>
   ___
-  <br>
   <br>
   
 ## How to Run:<br>
@@ -56,9 +51,7 @@ _____
     <br>
 There is no backend or installation step required – everything runs completely in the browser.<br>
 <br>
-<br>
 _____
-<br>
 <br>
 
 ## Author
