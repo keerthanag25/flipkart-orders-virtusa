@@ -1,43 +1,68 @@
-#Flipkart Orders – Virtusa Mini Project
-This is a simple Flipkart‑style “My Orders” web application created for the Virtusa internship/mini‑project.
-It lets users view their past orders in a layout similar to Flipkart’s orders page, along with basic tracking and a sample receipt.
+#Flipkart Orders – Virtusa Mini Project <br>
+<br>
+This is a simple Flipkart‑style **“My Orders”** web application created for the Virtusa internship/mini‑project.<br>
+It lets users view their past orders in a layout similar to Flipkart’s orders page, along with basic tracking and a sample receipt.<br>
+<br>
+<br>
+_____
+<br>
+<br>
+## Features:<br> <br>
 
-Features:
--Flipkart‑like top navbar with a clear My Orders title
--Clean, card‑based order layout with status badges (Delivered, In Transit, Cancelled, Refunded)
--Each order shows product name, price, payment method, order date, and delivery date
--Action buttons for Track Order, Cancel Order, and View Receipt
--Cancel button automatically disabled for delivered or already cancelled orders
--Orders are stored in localStorage, so data stays across page reloads
--Filter tabs to quickly switch between:
-  -All Orders
-  -Delivered
-  -In Transit
-  -Cancelled
-  -Refunded
+-Flipkart‑like top navbar with a clear **"My Orders"** title<br>
+-Clean, card‑based order layout with status badges (Delivered, In Transit, Cancelled, Refunded)<br>
+-Each order shows product name, price, payment method, order date, and delivery date<br>
+-Action buttons for **Track Order**, **Cancel Order**, and **View Receipt**<br>
+-Cancel button automatically disabled for delivered or already cancelled orders<br>
+-Orders are stored in localStorage, so data stays across page reloads<br>
+-Filter tabs to quickly switch between:<br>
+  -All Orders<br>
+  -Delivered<br>
+  -In Transit<br>
+  -Cancelled<br>
+  -Refunded<br>
+  <br>
+**Separate pages:**
+<br>
+  -`index.html` – Orders list <br>
+  -`track.html` – Order tracking timeline UI<br>
+  -`receipt.html` – Simple payment receipt page<br>
+  <br>
+  <br>
+  ____
+  <br>
+  <br>
   
-Separate pages:
-  -index.html – Orders list
-  -track.html – Order tracking timeline UI
-  -receipt.html – Simple payment receipt page
+## Tech Stack:<br>
+  -**HTML5** for structure<br>
+  -**CSS3** for styling and layout<br>
+  -**Vanilla** JavaScript for all the logic (no frameworks)<br>
+  -**localStorage** for storing and updating order data on the browser<br>
+  -Product images loaded via online image URLs (no local image folder required)<br>
+  <br>
+  <br>
+  ___
+  <br>
+  <br>
   
-Tech Stack:
-  -HTML5 for structure
-  -CSS3 for styling and layout
-  -Vanilla JavaScript for all the logic (no frameworks)
-  -localStorage for storing and updating order data on the browser
-  -Product images loaded via online image URLs (no local image folder required)
-  
-How to Run:
-  1.Download or clone this repository to your system.
-  2.Open the project folder in any code editor or directly in your file explorer.
-  3.Open index.html in a web browser (Chrome/Edge/Firefox).
-  4.From the orders page you can:
-    -Click Track Order to open track.html.
-    -Click View Receipt to open receipt.html.
-    -Click Cancel Order to update the order status in localStorage in real time.
-There is no backend or installation step required – everything runs completely in the browser.
+## How to Run:<br>
+  1.Download or clone this repository to your system.<br>
+  2.Open the project folder in any code editor or directly in your file explorer.<br>
+  3.Open **index.html** in a web browser (Chrome/Edge/Firefox).<br>
+  4.From the orders page you can:<br>
+    -Click **Track Order** to open track.html.<br>
+    -Click **View Receipt** to open receipt.html.<br>
+    -Click **Cancel Order** to update the order status in localStorage in real time.<br>
+    <br>
+There is no backend or installation step required – everything runs completely in the browser.<br>
+<br>
+<br>
+_____
+<br>
+<br>
 
-Author
+## Author
+<br>
 Name:Keerthana.G
+<br>
 GitHub: @keerthanag25
